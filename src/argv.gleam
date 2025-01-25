@@ -20,4 +20,5 @@ pub fn load() -> Argv {
 
 @external(erlang, "argv_ffi", "load")
 @external(javascript, "./argv_ffi.mjs", "load")
+@external(go, "", "load")
 fn do() -> #(String, String, List(String))
